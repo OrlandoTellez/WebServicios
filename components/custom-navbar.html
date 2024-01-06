@@ -1,0 +1,62 @@
+<!-- STYLE -->
+<style>
+  .menu {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: #85889c;
+    top: 0;
+    position: sticky;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .menu li {
+      flex-grow: 1;
+  }
+
+  .menu li a {
+      background-color: #eaeaea;
+      color: #000000;
+      text-decoration: none;
+      padding: 31px 80px;
+      display: block;
+      margin: 0%;
+      text-align: center;
+  }
+
+  .menu li a:hover {
+      background-color: rgb(165, 165, 165);
+      color: rgb(255, 157, 0);
+  }
+
+  .menu ul {
+    margin: 0%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+</style>
+<!-- NAVBAR -->
+<nav class="menu">
+  <label for="check" class="checkbtn">
+    <i class="fa-solid fa-bars"></i>
+  </label>
+  <ul>
+    <li><a href="index.html">
+        <i class="fa-solid fa-house"></i>
+        Pagina Principal</a></li>
+    <li><a href="ServiciosStreaming.html">
+        <i class="fa-solid fa-play"></i>
+        Streaming</a></li>
+    <li><a href="ComboPromociones.html">
+        <i class="fa-solid fa-receipt"></i>
+        Combos Promociones</a></li>
+    <li><a href="AtencionAlCliente.html">
+        <i class="fa-solid fa-phone"></i>
+        Ayuda</a>
+    </li>
+  </ul>
+</nav>
