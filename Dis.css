@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Aqui inicia el Banner*/
+/*Fondo de la pagina*/
+.banner {
+    position: relative;
+    widows: 150%;
+    width: auto;
+    height: calc(100vh - 100px);
+    background-image: url(Imagenes/Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(12, 12, 12, 0.75);
+}
+
+.content {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.content h1 {
+    margin: 20%;
+    font-size: 30px;
+    color: white;
+
+}
+/*menu*/
+.menu {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: #85889c;
+    top: 0;
+    position: sticky;
+}
+
+.menu li {
+    flex-grow: 1;
+}
+
+.menu li a {
+    background-color: #eaeaea;
+    color: #000000;
+    text-decoration: none;
+    padding: 31px 80px;
+    display: block;
+    margin: 0%;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background-color: rgb(165, 165, 165);
+    color: rgb(255, 157, 0);
+}
+
+header label {
+    display: none;
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid rgb(63, 63, 63);
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0)
+}
+
+.menu ul {
+    margin: 0%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.checkbtn {
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/*menufinal*/
+
+section {
+   /* background: url(Imagenes/Fondopag.png) no-repeat;*/
+    background-color: #ffffff;
+    background-position: center center;
+    background-size: cover;
+    height: calc(190vh - 80px);
+}
+
+.container1 {
+    display: flex;  
+    align-items: center;
+
+}
+
+.video1 {
+    width: 480px;
+    height: 260px;
+    border: 1px solid #323232;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+    margin-right: 0%;
+}
+
+.textoP1 {
+    text-align: center;
+    font-weight: 100;
+    margin-right: 4%;
+    
+}   
+
+.container2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.imagen1{
+    width: 90%;
+    height: 250px;
+    margin: 3%;
+    border-radius: 10%;
+}
+.textoP2{
+    text-align: center;
+    font-weight: 100;
+    border: 1px #000000 solid;
+}
+h3{
+    text-align: center;
+}
+.textoP3{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-left: 4%;
+}
+.imagenplay{
+    width: 26%;
+    height: 200px;
+    margin-left: 11%;
+    margin-top: -9%;
+}
+.imagenplay:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+}
+.imagencombopromociones{
+    width: 27%;
+    height: 210px;
+    margin-left: 23%;
+    margin-bottom: -1%;
+}
+.imagencombopromociones:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+    filter: opacity(10)
+}
+/*Footer de pagina*/
+.finaldepagina{
+    width: 100%;
+    background-color: #919090 ;
+}
+.finaldepagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+    padding: 45px 0px;
+    
+}
+.finaldepagina .grupo1 .box figure{
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+.finaldepagina .grupo1 .box figure img{
+    width: 110px;
+    height: 80px;
+}
+h5{
+    font-size: 16px;
+}
+.finaldepagina .grupo1 .redessociales{
+    width: 68px;
+    height: 100px;
+    line-height:45px;
+    color: #000000;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.finaldepagina .grupo1 .redessociales a:hover{
+    color: black;
+}
+.finaldepagina .grupo2{
+    text-align:center;
+    padding: 15px 10px;
+    color: #000000
+}
+.finaldepagina .grupo2 small{
+    font-size: 15px;
+}
+
+/*Responsivo para movil*/
+@media screen and (max-width: 431px) {
+    .menu {
+        height: auto;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .video1 {
+        width: 240px;
+        height: 140px;
+        border: 3px solid #fff;
+        border-radius:10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        margin-top: auto;
+        margin-right: auto;
+        margin: 25px 0;
+    }
+
+    .container1 {
+        flex-direction: column-reverse;
+        padding-bottom: 4en;
+    }
+
+    .container2,
+    .container3 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .finaldepagina .grupo1{
+        width: 90%;
+        grid-template-columns:repeat(1,1fr);
+        grid-gap: 10px;
+        padding: 30px 0;
+    }
+    .finaldepagina .grupo1 .box figure{
+        width: 100%;
+        grid-template-columns:repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0;
+        text-align: center;
+
+    }
+
+/*Responsivo Final*/
+}
+
+
+
