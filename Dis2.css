@@ -101,8 +101,13 @@ header label:hover {
     justify-content: center;
   }
   
-  .main-streaming__titulo h1{
-    text-align: center;
+
+  .main-streaming__titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-streaming__titulo img{
     padding-top: 30px;
   }
   
@@ -962,6 +967,277 @@ h5{
 /*footerfinal*/
 /*Responsivo para movil*/
 @media screen and (max-width: 431px) {
+  /* SECCION DE STREAMING RESPONSIVO */
+
+.main-streaming{
+    background-color: white;
+    width: 100%;
+    color: black;  
+  }
+  
+  .seccion-tarjetas{
+    background-color: #EAEAEA;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-orden__caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .main-streaming__titulo h1{
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .main-streaming__encabezado h4{
+    text-align: center;
+  }
+  
+  .streaming-tarjetas{
+    width: 250px;
+    background-color: #EAEAEA;
+    margin: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  
+  .streaming-tarjetas__caja{
+    width: 100%;
+  }
+  
+  .streaming-tarjetas__caja a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .imagen-streaming{
+    border-radius: 20px;
+  }
+  
+  /* FORMULARIOS RESPONSIVOS */
+  
+  
+
+  .main-form{
+    width: 100%;
+  }
+  
+  .contenedor-tarjeta{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+  .text-center{
+    background: none;
+  }
+  
+    /* NETFLIX */
+.formulario-tarjeta__Netflix{
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-netflix{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+  
+    /* HBO */
+  
+.formulario-tarjeta__HBOMAX{
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-hbo{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+  
+  /* DISNEY PLUS*/
+.formulario-tarjeta__DISNEYPLUS{
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-disney{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+  
+  /* PLEX TV*/
+
+.formulario-tarjeta__PLEXTV{
+
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-plextv{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+
+/* APPLE TV*/
+
+.formulario-tarjeta__APPLETV{
+
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-appletv{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }  
+  
+/* Crunchyroll*/
+
+.formulario-tarjeta__CRUNCHYROLL{
+
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-crunchyroll{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }    
+  
+  /* Spotify*/
+
+.formulario-tarjeta__SPOTIFY{
+
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+  
+  .correccion-spotify{
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }    
+  
+  /* Youtube premium*/
+  
+  .formulario-tarjeta__YOUTUBE {
+  
+    width: 100%;
+    border: 10px solid red;
+    border-radius: 10px
+  }
+  
+  .correccion-youtube {
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+
+/* PORNHUB*/
+.formulario-tarjeta__PORNHUB {
+  
+    width: 100%;
+    border: 10px solid red;
+    border-radius: 10px
+  }
+  
+  .correccion-pornhub {
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+  
+/* IPTV*/
+
+.formulario-tarjeta__IPTV {
+
+  
+    width: 100%;
+    border: 10px solid red;
+    border-radius: 10px
+  }
+  
+  .correccion-iptv {
+    width: 90%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+  }
+
+/* PARAMOUNT*/
+.formulario-tarjeta__PARAMOUNT {
+
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+
+.correccion-paramount{
+  width: 90%;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  margin: auto
+}
+  
+/* STAR PLUS */
+.formulario-tarjeta__STARPLUS {
+
+  width: 100%;
+  border: 10px solid red;
+  border-radius: 10px
+}
+
+.correccion-starplus{
+  width: 90%;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  margin: auto
+}
+  
+
+
     .menu {
         height: auto;
     }
