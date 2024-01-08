@@ -111,6 +111,10 @@ section {
 .container1 {
     display: flex;  
     align-items: center;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
 
 }
 
@@ -120,9 +124,10 @@ section {
     border: 1px solid #323232;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    margin-top: 5%;
+    margin-top: 1%;
     margin-right: 0%;
     margin-left: 15%;
+    margin-bottom: 1%;
 }
 
 .textoP1 {
@@ -137,6 +142,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    
 }
 .imagen1{
     width: 70%;
@@ -147,7 +153,6 @@ section {
 .textoP2{
     text-align: center;
     font-weight: 100;
-    border: 1px #000000 solid;
     margin-right: 1%;
 }
 h3{
@@ -181,6 +186,29 @@ h3{
     transition: 0.3s;
     filter: opacity(10)
 }
+.imagen2{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    margin-top: -25%;
+}
+.imagen2 img{
+    border-radius: 5%;
+    width: 80%;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 1%;
+}
+p a:hover{
+    color: chocolate;
+
+}
+
 /*Footer de pagina*/
 .finaldepagina{
     width: 100%;
@@ -257,6 +285,7 @@ h5{
          position: center;
          height: 190px;
          width: 88%;
+         border-radius: 5%;
 
     }
     .textoP2{
@@ -301,6 +330,33 @@ h5{
         margin-left: -6%;
         margin-bottom: -2.9%;
     }
+    .imagen2{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin: auto;
+        margin-top: -145%;
+    }
+    .imagen2 img{
+        border-radius: 5%;
+        width: 90%;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 7%;
+    }
+    p a{
+        color: chocolate;
+
+    }
+    p a:hover{
+        color: chocolate;
+    
+    }
+    
 
     .finaldepagina .grupo1{
         width: 90%;
@@ -328,6 +384,17 @@ h5{
     }
 
 /*Responsivo Final*/
+}
+/*responsivo para 1080*/
+@media screen and (max-width: 1080px) {
+    .imagen2{
+        margin-top: 30%;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 3%;
 }
 
 
