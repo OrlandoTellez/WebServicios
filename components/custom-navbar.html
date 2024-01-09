@@ -18,7 +18,7 @@
       background-color: #eaeaea;
       color: #000000;
       text-decoration: none;
-      padding: 31px 80px;
+      padding: 31px 0px;
       display: block;
       margin: 0%;
       text-align: center;
@@ -38,10 +38,18 @@
     justify-content: space-evenly;
     flex: 1;
   }
+
+   @media screen and (max-width: 768px){
+    .menu li a {
+      padding: 31px 0;
+    }
+  }
+  
   @media screen and (max-width: 431px) {
     .menu {
         height: auto;
         width: 100%;
+      position: sticky;
     }
 
     .menu ul {
@@ -52,9 +60,11 @@
     .menu {
         height: auto;
         width: 100%;
+      
     }
     .menu li a{
       font-size: 13px;
+      padding: 31px 0;
     }
 
     
