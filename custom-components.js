@@ -10,9 +10,20 @@ class CustomNavbar extends HTMLElement {
   }
 
   async getTemplate() {
-    const htmlFile = await fetch('./components/custom-navbar.html');
-    const template = await htmlFile.text();
-    return template;
+    //const htmlFile = await fetch('./components/custom-navbar.html');
+    //const template = await htmlFile.text();
+    //return template;
+    try {
+      const htmlFile = await fetch('../components/custom-navbar.html');
+      if (!htmlFile.ok) {
+        throw new Error(`Error al cargar ${htmlFile.url}: ${htmlFile.statusText}`);
+      }
+      const template = await htmlFile.text();
+      return template;
+    } catch (error) {
+      console.error(error);
+     
+    }
   }
 }
 
