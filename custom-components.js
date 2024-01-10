@@ -14,7 +14,7 @@ class CustomNavbar extends HTMLElement {
     //const template = await htmlFile.text();
     //return template;
     try {
-    const htmlFile = await fetch('./components/custom-navbar.html');
+    const htmlFile = await fetch('../components/custom-navbar.html');
 
       
       if (!htmlFile.ok) {
