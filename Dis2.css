@@ -155,15 +155,24 @@ header label:hover {
   
   /* FORMULARIOS */
   
+.body-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;  
+}
+
+
   .main-form{
     background-color: white;
     color: white;
-    width: 100%;
+    max-width: 1440px;
     height: 100vh;
     padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+      justify-content: center;
+    align-self: center;
   }
   
   .main-form h1{
@@ -1014,6 +1023,39 @@ h5{
     place-items: center;
     align-self: flex-start;
   }
+
+    
+
+  .contenedor-tarjeta{
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    padding: 0px;
+  }
+
+  .correccion-netflix{
+    width: 90%;
+    height: auto;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px ;
+  }
+
+  .video1 {
+    width: 350px;
+    height: 200px;
+    border: 3px solid #fff;
+    border-radius:10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+    margin-right: auto;
+    margin: 25px 0;
+}
+
+.text-center{
+  background: none;
+}
   
 }
 
@@ -1086,7 +1128,7 @@ h5{
   .contenedor-tarjeta{
     width: 100%;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
   }
   .text-center{
     background: none;
@@ -1095,7 +1137,8 @@ h5{
     /* NETFLIX */
 .formulario-tarjeta__Netflix{
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+  border: 8px solid red;
 }
   
   .correccion-netflix{
@@ -1103,14 +1146,15 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
   
     /* HBO */
   
 .formulario-tarjeta__HBOMAX{
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid #3D3B40;
 }
   
   .correccion-hbo{
@@ -1118,13 +1162,14 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
   
   /* DISNEY PLUS*/
 .formulario-tarjeta__DISNEYPLUS{
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid darkblue;
 }
   
   .correccion-disney{
@@ -1132,7 +1177,7 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
   
   /* PLEX TV*/
@@ -1140,7 +1185,8 @@ h5{
 .formulario-tarjeta__PLEXTV{
 
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid #F79327;
 }
   
   .correccion-plextv{
@@ -1148,7 +1194,7 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
 
 /* APPLE TV*/
@@ -1156,7 +1202,8 @@ h5{
 .formulario-tarjeta__APPLETV{
 
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid gray;
 }
   
   .correccion-appletv{
@@ -1164,7 +1211,7 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }  
   
 /* Crunchyroll*/
@@ -1172,7 +1219,8 @@ h5{
 .formulario-tarjeta__CRUNCHYROLL{
 
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid orange;
 }
   
   .correccion-crunchyroll{
@@ -1180,7 +1228,7 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }    
   
   /* Spotify*/
@@ -1188,7 +1236,8 @@ h5{
 .formulario-tarjeta__SPOTIFY{
 
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid green;
 }
   
   .correccion-spotify{
@@ -1196,7 +1245,7 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }    
   
   /* Youtube premium*/
@@ -1204,7 +1253,8 @@ h5{
   .formulario-tarjeta__YOUTUBE {
   
     width: 100%;
-    border-radius: 10px
+    border-radius: 10px;
+      border: 8px solid red;
   }
   
   .correccion-youtube {
@@ -1212,14 +1262,15 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
 
 /* PORNHUB*/
 .formulario-tarjeta__PORNHUB {
   
     width: 100%;
-    border-radius: 10px
+    border-radius: 10px;
+    border: 8px solid #FFA33C;
   }
   
   .correccion-pornhub {
@@ -1227,7 +1278,7 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
   
 /* IPTV*/
@@ -1236,7 +1287,8 @@ h5{
 
   
     width: 100%;
-    border-radius: 10px
+    border-radius: 10px;
+     border: 8px solid #7360DF;
   }
   
   .correccion-iptv {
@@ -1244,14 +1296,15 @@ h5{
     background: none;
     display: flex;
     flex-direction: column;
-    margin: auto
+    margin: auto;
   }
 
 /* PARAMOUNT*/
 .formulario-tarjeta__PARAMOUNT {
 
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    order: 8px solid blue;
 }
 
 .correccion-paramount{
@@ -1259,14 +1312,15 @@ h5{
   background: none;
   display: flex;
   flex-direction: column;
-  margin: auto
+  margin: auto;
 }
   
 /* STAR PLUS */
 .formulario-tarjeta__STARPLUS {
 
   width: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+    border: 8px solid #392467;
 }
 
 .correccion-starplus{
@@ -1274,7 +1328,7 @@ h5{
   background: none;
   display: flex;
   flex-direction: column;
-  margin: auto
+  margin: auto;
 }
   
 
