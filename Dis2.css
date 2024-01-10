@@ -995,7 +995,6 @@ h5{
 /*Responsivo para tablets*/
 @media screen and (max-width: 930px){
   .container-body__streaming-card{
-    background-color: red;
     width: 100%;
     
   }
