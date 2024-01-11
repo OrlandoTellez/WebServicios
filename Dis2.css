@@ -117,7 +117,16 @@ header label:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     place-items: center;
+      max-width: 1280px;
   }
+
+ .seccion-tarjetas streaming-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   
   
 .main-streaming__imagen{
