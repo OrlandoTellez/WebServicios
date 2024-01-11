@@ -182,6 +182,7 @@ header label:hover {
     align-items: center;
       justify-content: center;
     align-self: center;
+      margin-top: 100px;
   }
   
   .main-form h1{
@@ -200,6 +201,7 @@ header label:hover {
       padding: 40px;
       width: 100%;
       border-radius: 20px;
+      background-color: #EAEAEA;
   }
   
   .text-center{
@@ -212,7 +214,7 @@ header label:hover {
   /* Netflix */
     .formulario-tarjeta__Netflix{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -269,7 +271,7 @@ header label:hover {
   /*HBO*/
     .formulario-tarjeta__HBOMAX{
       width: 90%;
-      height: 80vh;
+      height: 100vh;
       background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
@@ -334,7 +336,7 @@ header label:hover {
   /* DISNEY PLUS  */
   .formulario-tarjeta__DISNEYPLUS{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -398,7 +400,7 @@ header label:hover {
   /* PLEX TV  */
   .formulario-tarjeta__PLEXTV{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -460,7 +462,7 @@ header label:hover {
   /* PARAMOUNT  */
   .formulario-tarjeta__PARAMOUNT{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -522,7 +524,7 @@ header label:hover {
   /* APPLE TV  */
   .formulario-tarjeta__APPLETV{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgb(0, 0, 0),
@@ -584,7 +586,7 @@ header label:hover {
   /* CRUNCHYROLL   */
   .formulario-tarjeta__CRUNCHYROLL{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -645,7 +647,7 @@ header label:hover {
   /* STARPLUS*/
   .formulario-tarjeta__STARPLUS{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -707,7 +709,7 @@ header label:hover {
   /* Youtube Premium */
   .formulario-tarjeta__YOUTUBE{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -767,7 +769,7 @@ header label:hover {
   /*  SPOTIFY */
   .formulario-tarjeta__SPOTIFY{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -828,7 +830,7 @@ header label:hover {
   /*  PORNHUB */
   .formulario-tarjeta__PORNHUB{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
@@ -891,7 +893,7 @@ header label:hover {
   .formulario-tarjeta__IPTV{
   
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
