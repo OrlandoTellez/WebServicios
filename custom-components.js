@@ -15,7 +15,6 @@ class CustomNavbar extends HTMLElement {
     //return template;
     try {
     const htmlFile = await fetch('../components/custom-navbar.html');
-
       
       if (!htmlFile.ok) {
         throw new Error(`Error al cargar ${htmlFile.url}: ${htmlFile.statusText}`);

@@ -100,7 +100,7 @@ html{
 }
 /*menufinal*/
 
-section {
+.section {
    /* background: url(Imagenes/Fondopag.png) no-repeat;*/
     background-color: #ffffff;
     background-position: center center;
@@ -351,17 +351,23 @@ p a:hover{
 /*Footer de pagina*/
 .finaldepagina{
     width: 100%;
-    background-color: #919090 ;
+    background-color: #424769 /*#919090*/ ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    
 }
 .finaldepagina .grupo1{
     width: 100%;
+    
     max-width: 1200px;
-    margin-top: 30%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+
     grid-gap: 100px;
-    padding: 45px 0px;
     
+    margin: 50px 0px;
 }
 .finaldepagina .grupo1 .box figure{
     width: 100%;
@@ -370,31 +376,57 @@ p a:hover{
     justify-content: center;
 }
 .finaldepagina .grupo1 .box figure img{
-    width: 110px;
-    height: 80px;
+    width: 100px;
 }
 h5{
     font-size: 16px;
 }
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.redessociales a{
+
+  color: white;
+}
+
 .finaldepagina .grupo1 .redessociales{
-    width: 68px;
+    width: 100%;
     height: 100px;
     line-height:45px;
-    color: #000000;
-    text-align: center;
+    color: white;
+    text-align: start;
     transition: all 300ms ease;
 }
+
+
+
 .finaldepagina .grupo1 .redessociales a:hover{
     color: black;
+    
 }
 .finaldepagina .grupo2{
     text-align:center;
     padding: 15px 10px;
-    color: #000000
+    color: white;
 }
 .finaldepagina .grupo2 small{
     font-size: 15px;
 }
+
 
 /*Responsivo para movil*/
 @media screen and (max-width: 431px) {
@@ -497,18 +529,38 @@ h5{
     }
     
 
+     /*footer responsivo*/
+    
+    
+    .finaldepagina{
+      padding: 30px;
+    }
+
     .finaldepagina .grupo1{
-        width: 90%;
+        width: 100%;
         grid-template-columns:repeat(1,1fr);
         grid-gap: 10px;
-        padding: 30px 0;
+  
     }
+    
     .box1{
+    
+       align-items: center;
         text-align: center;
     }
+    
     .box2{
-        text-align: center;
+      margin-top: 30px;
+      align-items: center;
+      font-size: 20px;
+      text-align: center;
     }
+    
+    .redessociales div{
+      text-align: center;
+    }
+    
+
     .finaldepagina .grupo1 .box figure{
         width: 100%;
         height: 100%;
@@ -521,7 +573,8 @@ h5{
         text-align: center;
         margin-right: 5%;
     }
-
+    
+    
 /*Responsivo Final*/
 }
 /*responsivo para 1080*/

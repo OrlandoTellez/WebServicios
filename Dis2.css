@@ -117,7 +117,16 @@ header label:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     place-items: center;
+      max-width: 1280px;
   }
+
+ .seccion-tarjetas streaming-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   
   
 .main-streaming__imagen{
@@ -173,6 +182,7 @@ header label:hover {
     align-items: center;
       justify-content: center;
     align-self: center;
+      margin-top: 100px;
   }
   
   .main-form h1{
@@ -191,6 +201,7 @@ header label:hover {
       padding: 40px;
       width: 100%;
       border-radius: 20px;
+      background-color: #EAEAEA;
   }
   
   .text-center{
@@ -203,13 +214,13 @@ header label:hover {
   /* Netflix */
     .formulario-tarjeta__Netflix{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-netflix.jpg");
+    , url("Imagenes/Imagenes-tarjeta/portada-netflix.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,13 +271,13 @@ header label:hover {
   /*HBO*/
     .formulario-tarjeta__HBOMAX{
       width: 90%;
-      height: 80vh;
+      height: 100vh;
       background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
       )
-      , url("Imagenes-tarjeta/portada-hbomax.png");
+      , url("Imagenes/Imagenes-tarjeta/portada-hbomax.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -325,13 +336,13 @@ header label:hover {
   /* DISNEY PLUS  */
   .formulario-tarjeta__DISNEYPLUS{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-disney.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-disney.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -389,13 +400,13 @@ header label:hover {
   /* PLEX TV  */
   .formulario-tarjeta__PLEXTV{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-plextv.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-plextv.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -451,13 +462,13 @@ header label:hover {
   /* PARAMOUNT  */
   .formulario-tarjeta__PARAMOUNT{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-paramount.jpg");
+    , url("Imagenes/Imagenes-tarjeta/portada-paramount.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -513,13 +524,13 @@ header label:hover {
   /* APPLE TV  */
   .formulario-tarjeta__APPLETV{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgb(0, 0, 0),
     rgb(0, 0, 0)
     )
-    , url("Imagenes-tarjeta/portada-appletv.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-appletv.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -575,13 +586,13 @@ header label:hover {
   /* CRUNCHYROLL   */
   .formulario-tarjeta__CRUNCHYROLL{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-crunchyroll.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-crunchyroll.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -636,13 +647,13 @@ header label:hover {
   /* STARPLUS*/
   .formulario-tarjeta__STARPLUS{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-starplus.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-starplus.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -698,13 +709,13 @@ header label:hover {
   /* Youtube Premium */
   .formulario-tarjeta__YOUTUBE{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-youtube.jpg");
+    , url("Imagenes/Imagenes-tarjeta/portada-youtube.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -758,13 +769,13 @@ header label:hover {
   /*  SPOTIFY */
   .formulario-tarjeta__SPOTIFY{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-hbomax.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-hbomax.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -819,13 +830,13 @@ header label:hover {
   /*  PORNHUB */
   .formulario-tarjeta__PORNHUB{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-pornhub.png");
+    , url("Imagenes/Imagenes-tarjeta/portada-pornhub.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -882,13 +893,13 @@ header label:hover {
   .formulario-tarjeta__IPTV{
   
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
     )
-    , url("Imagenes-tarjeta/portada-iptv.jpg");
+    , url("Imagenes/Imagenes-tarjeta/portada-iptv.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -941,56 +952,7 @@ header label:hover {
   .correccion-iptv button{
   background-color: blue;
   }
-  /*Footer de pagina*/
-.finaldepagina{
-    width: 100%;
-    background-color: #919090 ;
-}
-.finaldepagina .grupo1{
-    width: 100%;
-    max-width: 1200px;
-    margin-top: 30%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 100px;
-    padding: 45px 0px;
-    
-}
-.finaldepagina .grupo1 .box figure{
-    width: 100%;
-    height:100%;
-    display:flex;
-    justify-content: center;
-}
-.finaldepagina .grupo1 .box figure img{
-    width: 110px;
-    height: 80px;
-}
-h5{
-    font-size: 16px;
-}
-.finaldepagina .grupo1 .redessociales{
-    width: 68px;
-    height: 100px;
-    line-height:45px;
-    color: #000000;
-    text-align: center;
-    transition: all 300ms ease;
-}
-.finaldepagina .grupo1 .redessociales a:hover{
-    color: black;
-}
-.finaldepagina .grupo2{
-    text-align:center;
-    padding: 15px 10px;
-    color: #000000
-}
-.finaldepagina .grupo2 small{
-    font-size: 15px;
-}
-/*footerfinal*/
-
-
+  
 
 /*Responsivo para tablets*/
 @media screen and (max-width: 930px){
@@ -1056,7 +1018,6 @@ h5{
   background: none;
 }
   
-}
 
 
 
