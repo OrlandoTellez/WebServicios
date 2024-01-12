@@ -952,56 +952,7 @@ header label:hover {
   .correccion-iptv button{
   background-color: blue;
   }
-  /*Footer de pagina*/
-.finaldepagina{
-    width: 100%;
-    background-color: #919090 ;
-}
-.finaldepagina .grupo1{
-    width: 100%;
-    max-width: 1200px;
-    margin-top: 30%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 100px;
-    padding: 45px 0px;
-    
-}
-.finaldepagina .grupo1 .box figure{
-    width: 100%;
-    height:100%;
-    display:flex;
-    justify-content: center;
-}
-.finaldepagina .grupo1 .box figure img{
-    width: 110px;
-    height: 80px;
-}
-h5{
-    font-size: 16px;
-}
-.finaldepagina .grupo1 .redessociales{
-    width: 68px;
-    height: 100px;
-    line-height:45px;
-    color: #000000;
-    text-align: center;
-    transition: all 300ms ease;
-}
-.finaldepagina .grupo1 .redessociales a:hover{
-    color: black;
-}
-.finaldepagina .grupo2{
-    text-align:center;
-    padding: 15px 10px;
-    color: #000000
-}
-.finaldepagina .grupo2 small{
-    font-size: 15px;
-}
-/*footerfinal*/
-
-
+  
 
 /*Responsivo para tablets*/
 @media screen and (max-width: 930px){
@@ -1067,7 +1018,6 @@ h5{
   background: none;
 }
   
-}
 
 
 
