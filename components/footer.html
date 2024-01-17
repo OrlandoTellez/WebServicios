@@ -1,0 +1,176 @@
+ <style> 
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Footer de pagina*/
+.finaldepagina{
+    width: 100%;
+    background-color: #424769 /*#919090*/ ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    
+}
+.finaldepagina .grupo1{
+    width: 100%;
+    
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    grid-gap: 100px;
+    
+    margin: 50px 0px;
+}
+.finaldepagina .grupo1 .box figure{
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+.finaldepagina .grupo1 .box figure img{
+    width: 100px;
+}
+h5{
+    font-size: 16px;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.redessociales a{
+
+  color: white;
+}
+
+.finaldepagina .grupo1 .redessociales{
+    width: 100%;
+    height: 100px;
+    line-height:45px;
+    color: white;
+    text-align: start;
+    transition: all 300ms ease;
+}
+
+
+
+.finaldepagina .grupo1 .redessociales a:hover{
+    color: black;
+    
+}
+.finaldepagina .grupo2{
+    text-align:center;
+    padding: 15px 10px;
+    color: white;
+}
+.finaldepagina .grupo2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 431px){
+    
+     /*footer responsivo*/
+    
+    
+     .finaldepagina{
+      padding: 0px 30px;
+    }
+
+    .finaldepagina .grupo1{
+        width: 100%;
+        grid-template-columns:repeat(1,1fr);
+        grid-gap: 10px;
+  
+    }
+    
+    .box1{
+    
+       align-items: center;
+        text-align: center;
+    }
+    
+    .box2{
+      margin-top: 30px;
+      align-items: center;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    .redessociales div{
+      text-align: center;
+    }
+    
+
+    .finaldepagina .grupo1 .box figure{
+        width: 100%;
+        height: 100%;
+        grid-gap: 30px;
+        padding: 40px 0;
+        text-align: center;
+        margin-left: auto;
+    }
+    .grupo2{
+        text-align: center;
+        margin-right: 5%;
+    }
+}
+ </style> 
+  
+  
+  <!--Pie de pagina-->
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <footer class="finaldepagina">
+     
+    <div class="grupo1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img class="logofooter" src="../Imagenes/LogoBanner.png" alt="Logo">
+                </a>
+                </a>
+            </figure>
+        </div>
+        <div class="box1">
+            <h4>SOBRE NOSOTROS</h4>
+            <p>Descubre más sobre nosotros y únete a una comunidad que comparte tu pasión por el entretenimiento sin límites</p>
+            <p>Streaming Nicaragua</p>
+        </div>
+        <div class="box2">
+            <h5>SIGUENOS</h5>
+            <div class="redessociales">
+              <div>
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-whatsapp"></a>
+                <a href="#" class="fa-brands fa-twitter"></a>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="grupo2">
+        <small>&copy; 2024 <b>MundoStreamingNicaragua</b> - Todos los Derechos Reservados. </small>
+    </div>
+</footer>
