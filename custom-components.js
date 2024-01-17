@@ -127,7 +127,34 @@ async getTemplate() {
 }
 }
 
+class Footer extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+  }
+
+  async connectedCallback() {
+    this.shadowRoot.innerHTML = await this.getTemplate();
+  }
+
+  async getTemplate() {
+    try {
+    const htmlFile = await fetch('../components/footer.html');
+      
+      if (!htmlFile.ok) {
+        throw new Error(`Error al cargar ${htmlFile.url}: ${htmlFile.statusText}`);
+      }
+      const template = await htmlFile.text();
+      return template;
+    } catch (error) {
+      console.error(error);
+     
+    }
+  }
+}
+
 customElements.define('custom-navbar', CustomNavbar);
 customElements.define('streaming-card', StreamingCard);
 customElements.define('streaming-cardcombo', StreamingcardCombo);
+customElements.define("footer-pagina", Footer)
 
